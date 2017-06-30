@@ -4,9 +4,9 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
-	* Objects
-	* Properties
-	* Methods
+	* Objects - Simple representation of real world objects. Everything is an object in js. An instance of an established class and has properties defined upon its initiation. Can be a variable, data structure, method, function..
+	* Properties - are characteristics of the object as defined upon its creation.
+	* Methods - 
 	* for in loop
 	* dot notation vs bracket notation
 
