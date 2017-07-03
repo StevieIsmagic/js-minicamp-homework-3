@@ -6,9 +6,9 @@
 		
 	* Objects - Simple representation of real world objects. Everything is an object in js. An instance of an established class and has properties defined upon its initiation. Can be a variable, data structure, method, function..
 	* Properties - are characteristics of the object as defined upon its creation.
-	* Methods - 
-	* for in loop
-	* dot notation vs bracket notation
+	* Methods - the actions that can be performed by objects.
+	* for in loop - functin to iterate through keys in an object.
+	* dot notation vs bracket notation - two distinct ways to access / change the keys/valuves in an object
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
