@@ -1,6 +1,6 @@
 'use strict';
 //QUESTIONS: #3 invokeMethod, #14 addCalculateDiscountPriceMethod(storeItem) using storeItem vs 'this' ?
-//QUESTION clarification on using object[property] vs object['property'] 
+//QUESTION clarification on using object[property] vs object['property']  
 
 //Do not change any of the function names
 
@@ -165,6 +165,9 @@ function addCalculateDiscountPriceMethod(storeItem) {
   //price -> 20
   //discountPercentage -> .2
   //discountPrice = 20 - (20 * .2)
+  
+  // LOOK INTO UNDERSTANDING THIS PROBLEM A BIT MORE IN DEPTH!!
+
   storeItem.calculateDiscountPrice = function(){
     var discount = this.price * this.discountPercentage;
     var discountPrice = this.price - discount;
